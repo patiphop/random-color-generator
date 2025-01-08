@@ -1,0 +1,30 @@
+.color-generator {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+}
+
+.color-generator h1 {
+  margin-bottom: 10px;
+}
+
+.color-generator p {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.color-generator button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.color-generator button:hover {
+  background-color: #555;
+}
